@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Unnamed Synth'
+theme = 're-terminal'
+
+[params]
+    themeColor = "green"
+
+[languages]
+  [languages.en.params]
+    languageName = "English"
+    title = "Unnamed Synth"
+    [languages.en.params.logo]
+      logoText = "AMS"
+      logoHomeLink = "/"
+
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true

@@ -1,0 +1,21 @@
+{{/*
+  Shortcode: bordered-figure
+  Usage examples:
+    {{< bordered-figure src="/img/Waveforms.png" alt="Waveforms" caption="My caption" >}}
+    {{< bordered-figure src="Waveforms.png" alt="Waveforms" >}}
+
+  Supports parameters: src (required), alt, title, caption, class
+  Renders a <figure> with a thin border and responsive image.
+*/}}
+{{ $src := .Get "src" | default "" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $title := .Get "title" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
+{{ $class := .Get "class" | default "bordered-figure" }}
+
+<figure class="{{ $class }}" style="border:8px solid var(--accent);padding:6px;display:inline-block;max-width:100%;background-color:var(--accent-contrast-color)">
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ if $title }} title="{{ $title }}"{{ end }} style="display:block;max-width:100%;height:auto;" />
+  {{ if $caption }}
+    <figcaption style="font-size:0.9em;color:#666;margin-top:6px;">{{ $caption }}</figcaption>
+  {{ end }}
+</figure>
