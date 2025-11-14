@@ -2,7 +2,7 @@ baseURL = 'https://senior-project-modular-synthesizer.github.io/Hugo-Website/'
 languageCode = 'en-us'
 title = 'Seven Deadly Synths'
 theme = 're-terminal'
-
+relativeURLs = true
 [params]
     themeColor = "green"
 

@@ -2,7 +2,7 @@
 ## What is a Modular Synth?
 A modular synth is a type of synthesizer that is made from seperate modules connected together via patch cables. Each module has a separate, specific function. They may take in, manipulate, and output control voltages or audio signals. These modules connect together to create something more complicated and interesting than each individual effect. By combining multiple simple effects, you can use a modular synth to make complex, unique sounds.
 
-For more information about the different types of modules, please visit our [Module Types](./module-types/) page.
+For more information about the different types of modules, please visit our [Module Types](modules-types/ "Module Types") page.
 
 #### Eurorack
 The most common format for modular synths is Eurorack. Eurorack specifies the height, width, and voltages of modules. This allows modules from different manufacturers to be used together. The width of a module is a multiple of .2 in (5.08 mm) and the height is 3U (128.5 mm). The standard voltage range is -10v to 10v.
