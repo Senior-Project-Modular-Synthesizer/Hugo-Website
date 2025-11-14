@@ -1,6 +1,6 @@
 baseURL = 'https://senior-project-modular-synthesizer.github.io/Hugo-Website/'
 languageCode = 'en-us'
-title = 'Unnamed Synth'
+title = 'Seven Deadly Synths'
 theme = 're-terminal'
 
 [params]
@@ -9,10 +9,10 @@ theme = 're-terminal'
 [languages]
   [languages.en.params]
     languageName = "English"
-    title = "Unnamed Synth"
+    title = "Seven Deadly Synths"
     [languages.en.params.logo]
       logoText = "Seven Deadly Synths"
-      logoHomeLink = "/"
+      logoHomeLink = "https://github.com/Senior-Project-Modular-Synthesizer/SynthCodeESPIDF"
 
 [markup.goldmark.parser.attribute]
   block = true
