@@ -8,7 +8,7 @@ A modular synth is made up of different modules, each with a simple function. Th
 ## Oscillators
 Oscillators are the sound source of a modular synth. They generate a waveform that can be shaped and modulated to create different sounds. The basic waveforms are sine, square, triangle, sawtooth, and noise. Each waveform sounds different.
     
-{{< bordered-figure src="/img/Waveforms.png" alt="Waveforms" >}}
+{{< bordered-figure src="img/Waveforms.png" alt="Waveforms" >}}
 
 Think of waveforms as the most basic sound. They are the building blocks of all sounds.
 
