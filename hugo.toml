@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://senior-project-modular-synthesizer.github.io/Hugo-Website/'
 languageCode = 'en-us'
 title = 'Unnamed Synth'
 theme = 're-terminal'
