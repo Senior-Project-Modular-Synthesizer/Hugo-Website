@@ -11,7 +11,7 @@ theme = 're-terminal'
     languageName = "English"
     title = "Unnamed Synth"
     [languages.en.params.logo]
-      logoText = "AMS"
+      logoText = "Seven Deadly Synths"
       logoHomeLink = "/"
 
 [markup.goldmark.parser.attribute]
