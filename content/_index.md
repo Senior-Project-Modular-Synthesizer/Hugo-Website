@@ -29,8 +29,8 @@ We are developing a Eurorack-compliant module capable of taking on the behavior 
 - 240 MHZ ESP32-S3 Processor
 - 4 Unused GPIO pins for the user
 
-## Demo Day
-Our synthesizer will be demonstrated on December 5th from 10 AM to noon. It will have a number of basic effects that will let a user make sounds by connecting different effects together. We will also let the user apply effects to input audio, such as regular music from a laptop or a keyboard. The GUI will be similar to the example below:
+## Prototype
+The current device has a number of basic effects that let a user make sounds by connecting different effects together. We can also apply effects to input audio, such as regular music from a laptop or a keyboard. The GUI is similar to the example below:
 {{< bordered-figure src="/Hugo-Website/img/SampleLVGL.png" alt="Sample GUI" >}}
 
 ## Additional Resources
